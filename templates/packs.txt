@@ -1,0 +1,13 @@
+.venv\Scripts\activate
+pip install pillow
+
+
+
+    # Crear la ventana principal
+    ventana = tk.Tk()
+
+    # Hacer la ventana transparente
+    ventana.attributes('-alpha', 0.7)  # 0.0 es completamente transparente, 1.0 es opaco
+
+    # Hacer que el fondo de la ventana sea transparente
+    ventana.config(bg='red')
